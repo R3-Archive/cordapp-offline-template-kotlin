@@ -28,7 +28,7 @@ To update this template you must;
 2. Fetch the latest updates from upstream: `git fetch upstream`
 3. Rebase under the upstream master: `git rebase upstream/master`
 4. Checkout the release branch you want to release: `git checkout upstream release-M<version>`
-5. Cherry pick all commits between `upstream/master` and `master` with `git cherry-pick upstream/master master`
+5. Cherry pick all commits between `upstream/master` and `master` with `git cherry-pick upstream/master..master`
 6. Tag you release
 7. Push your tag
 
